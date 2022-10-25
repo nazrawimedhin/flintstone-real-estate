@@ -11,7 +11,7 @@ const Footer = () => {
             <div className='logo'>
               <img src='../images/logo-white.png' alt='logo' />
               <h2>Do You Need Help With Anything?</h2>
-              <p>Receive updates, Hot deals and discounts sent straignt in your inbox every month.</p>
+              <p>Receive updates, Hot deals and discounts sent straight in your inbox every month.</p>
               <div className='input flex'>
                 <input type='text' placeholder='Email Address' />
                 <button className='blue'>Subscribe</button>
@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className='legal'>
-        <span>© 2022 Flintstone. Designed By Nazrawi.</span>
+        <span>© 2022 Flintstone. Designed By <a href="https://github.com/nazrawimedhin">Nazrawi</a>.</span>
       </div>
     </>
   )
