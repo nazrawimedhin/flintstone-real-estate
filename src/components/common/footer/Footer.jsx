@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className='legal'>
-        <span>© 2022 Flintstone. Designed By <a href="https://github.com/nazrawimedhin">Nazrawi</a>.</span>
+        <span>© 2022 Flintstone. Designed By <a href="https://github.com/nazrawimedhin" className="blue">Nazrawi</a>.</span>
       </div>
     </>
   )
