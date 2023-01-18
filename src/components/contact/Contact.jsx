@@ -16,7 +16,7 @@ const Contact = () => {
               <input type='text' placeholder='Email' />
             </div>
             <textarea cols='30' rows='10'></textarea>
-            <button className="blue">Submit</button>
+            <button>Submit</button>
           </form>
         </div>
       </section>
