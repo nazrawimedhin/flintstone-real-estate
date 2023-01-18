@@ -1,7 +1,7 @@
 import React from "react"
 import Heading from "../../common/Heading"
-import "./recent.css"
 import RecentCard from "./RecentCard"
+import "./recent.css"
 
 const Recent = () => {
   return (

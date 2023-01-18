@@ -8,7 +8,6 @@ const Hero = () => {
       <section className='hero'>
         <div className='container'>
           <Heading title='Search Your Next Home' subtitle='Find new & featured property located in your local city.' />
-
           <form className='flex'>
             <div className='box'>
               <span>City</span>

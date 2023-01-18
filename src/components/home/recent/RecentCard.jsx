@@ -20,7 +20,7 @@ const RecentCard = () => {
               </div>
               <div className='button flex'>
                 <div>
-                  <button className='btn2 blue'>{price}</button>
+                  <button className='btn2'>{price}</button>
                 </div>
                 <span>{type}</span>
               </div>
