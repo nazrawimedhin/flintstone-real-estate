@@ -14,11 +14,10 @@ const Footer = () => {
               <p>Receive updates, Hot deals and discounts sent straight in your inbox every month.</p>
               <div className='input flex'>
                 <input type='text' placeholder='Email Address' />
-                <button className='blue'>Subscribe</button>
+                <button>Subscribe</button>
               </div>
             </div>
           </div>
-
           {footer.map((val) => (
             <div className='box'>
               <h3>{val.title}</h3>
@@ -32,7 +31,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className='legal'>
-        <span>© 2022 Flintstone. Designed By <a href="https://github.com/nazrawimedhin" style={{color: '#1e90ff'}}>Nazrawi</a>.</span>
+        <span>© 2022 Flintstone. Designed By <a href="https://github.com/nazrawimedhin" style={{color: '#1e90ff'}}>Nazrawi</a></span>
       </div>
     </>
   )
