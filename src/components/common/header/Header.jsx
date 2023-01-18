@@ -1,7 +1,7 @@
 import React, { useState } from "react"
-import "./header.css"
-import { nav } from "../../data/Data"
 import { Link } from "react-router-dom"
+import { nav } from "../../data/Data"
+import "./header.css"
 
 const Header = () => {
   const [navList, setNavList] = useState(false)
@@ -23,7 +23,7 @@ const Header = () => {
             </ul>
           </div>
           <div className='button flex'>
-            <button className='btn1 blue'>
+            <button className='btn1'>
               <i className='fa fa-sign-out'></i> Sign up
             </button>
           </div>
