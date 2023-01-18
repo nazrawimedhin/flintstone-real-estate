@@ -1,5 +1,5 @@
 .footerContact {
-  background-color: #27ae60;
+  background-color: rgb(30, 144, 255);
   padding: 40px 0;
   color: #fff;
 }
@@ -55,7 +55,4 @@ footer ul li {
   footer .container {
     grid-template-columns: repeat(2, 1fr);
   }
-}
-.blue {
-  background-color: rgb(30, 144, 255);
 }
