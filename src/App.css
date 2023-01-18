@@ -28,7 +28,7 @@ ul {
 button {
   border-radius: 5px;
   padding: 17px 30px;
-  background: #27ae60;
+  background: rgb(30, 144, 255);
   border: none;
   color: #fff;
   cursor: pointer;
@@ -51,8 +51,7 @@ button i {
 .heading p {
   color: #72809d;
 }
-textarea,
-input {
+textarea, input {
   border: none;
   outline: none;
   background: none;
@@ -62,7 +61,6 @@ input {
   position: relative;
   background: #f7f9fc;
 }
-
 .grid5 {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -115,7 +113,7 @@ img {
 .btn5 {
   border-radius: 50px;
   padding: 20px 40px;
-  color: #27ae60;
+  color: rgb(30, 144, 255);
   font-size: 20px;
   font-weight: 400;
   border: 5px solid #27ae601f;
