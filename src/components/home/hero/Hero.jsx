@@ -21,7 +21,7 @@ const Hero = () => {
               <span>Price Range</span>
               <input type='text' placeholder='Price Range' />
             </div>
-            <button className='btn1 blue'>
+            <button className='btn1'>
               <i className='fa fa-search'></i>
             </button>
           </form>
