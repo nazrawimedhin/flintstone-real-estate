@@ -1,6 +1,6 @@
 # Real-Estate-Website
 
-![Home Page](./public/images/home.png)
+![Home Page](./public/home.png)
 
 ## Description of the project
 
@@ -20,7 +20,7 @@
 
 * HTML5
 * CSS3
-* JavaScript
+* JavaScript / ES6
 * React
 
 ## Third Services
