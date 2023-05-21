@@ -1,6 +1,6 @@
 # Real-Estate-Website
 
-![Home Page](./public/home.png)
+![Home Page](./public/images/home.png)
 
 ## Description of the project
 
@@ -16,9 +16,13 @@
 * Component based interface
 * Responsive interface
 
-## Technologies and Third Services
+## Technologies
 
 * HTML5
 * CSS3
 * JavaScript
-* React, Webpack, Font Awesome, ESLint
+* React
+
+## Third Services
+
+* Font Awesome
