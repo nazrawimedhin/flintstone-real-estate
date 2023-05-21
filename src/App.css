@@ -43,13 +43,13 @@ button i {
   margin: auto;
 }
 .heading h1 {
-  color: #2d3954;
+  color: #000000;
   font-weight: 600;
   text-transform: capitalize;
   font-size: 35px;
 }
 .heading p {
-  color: #72809d;
+  color: #252931;
 }
 textarea, input {
   border: none;
