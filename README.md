@@ -1,6 +1,6 @@
 # Real-Estate-Website
 
-![Home Page](./public/home.png)
+![Home Page](./public/images/home.png)
 
 ## Description of the project
 
