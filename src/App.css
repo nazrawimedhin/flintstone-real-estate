@@ -51,7 +51,8 @@ button i {
 .heading p {
   color: #252931;
 }
-textarea, input {
+textarea,
+input {
   border: none;
   outline: none;
   background: none;

@@ -1,5 +1,6 @@
 import React from "react";
-import { footer } from "../../data/Data";
+import { footer } from "../../../data/Data";
+import logo from "../../../assets/logo/logo-white.png";
 import "./footer.css";
 
 const Footer = () => {
@@ -9,7 +10,7 @@ const Footer = () => {
         <div className="container">
           <div className="box">
             <div className="logo">
-              <img src="../images/logo-white.png" alt="logo" />
+              <img src={logo} alt="logo" />
               <h2>Do You Need Help With Anything?</h2>
               <p>
                 Receive updates, Hot deals and discounts sent straight in your
@@ -25,8 +26,8 @@ const Footer = () => {
             <div className="box">
               <h3>{val.title}</h3>
               <ul>
-                {val.text.map((items) => (
-                  <li> {items.list} </li>
+                {val.text.map((item) => (
+                  <li> {item.list} </li>
                 ))}
               </ul>
             </div>
@@ -35,11 +36,8 @@ const Footer = () => {
       </footer>
       <div className="legal">
         <span>
-          © 2022 Flintstone. Designed By{" "}
-          <a
-            href="https://github.com/nazrawimedhin"
-            style={{ color: "#1e90ff" }}
-          >
+          © {new Date().getFullYear()} Flintstone. Designed By{" "}
+          <a href="https://nazrawi.netlify.app" style={{ color: "#1e90ff" }}>
             Nazrawi
           </a>
         </span>

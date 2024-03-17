@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { nav } from "../../data/Data";
+import { nav } from "../../../data/Data";
+import logo from "../../../assets/logo/logo-black.png";
 import "./header.css";
 
 const Header = () => {
@@ -11,7 +12,7 @@ const Header = () => {
       <header>
         <div className="container flex">
           <div className="logo">
-            <img src="./images/logo-black.png" alt="logo" />
+            <img src={logo} alt="logo" />
           </div>
           <div className="nav">
             <ul className={navList ? "small" : "flex"}>
